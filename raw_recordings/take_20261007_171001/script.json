@@ -1,0 +1,51 @@
+{
+  "schema_version": "2.0.0",
+  "bible_version": "Bíblia do Cazador // Versão Oficial IQ Option",
+  "theme": "velas_5s_roleta",
+  "theme_title": "O Vício da Vela de 5 Segundos (A Roleta de Dopamina)",
+  "ferida_psicologica": "O trader que coloca vela em 5s achando que é cassino e quebra a banca em 3 minutos.",
+  "voice_config": {
+    "voice": "es-MX-JorgeNeural",
+    "rate": "-3%",
+    "pitch": "-2Hz",
+    "persona": "O Sniper dos Mercados / O Predador da IQ Option"
+  },
+  "script_5_atos": {
+    "fase_1_gancho": "Si tu gráfico de IQ Option está en cinco segundos, apaga la pantalla ahora mismo.",
+    "fase_2_exposicion": "No eres trader, eres un adicto a la dopamina quemando tu dinero en una ruleta. La casa siempre gana contra los desesperados.",
+    "fase_3_mecanismo": "El dinero de verdad está en la lectura de vela de un minuto y en la absorción del pavilo.",
+    "fase_4_disparo_silencio": "...",
+    "fase_4_tensao": "Rechazo milimétrico. mil dólares operados con frialdad.",
+    "fase_5_recompensa_loop": "ochocientos setenta dólares de ganancia en una sola vela. Deja de jugar como un novato, porque..."
+  },
+  "full_speech_text": "Si tu gráfico de IQ Option está en cinco segundos, apaga la pantalla ahora mismo. ... No eres trader, eres un adicto a la dopamina quemando tu dinero en una ruleta. La casa siempre gana contra los desesperados. ... El dinero de verdad está en la lectura de vela de un minuto y en la absorción del pavilo. ... ... Rechazo milimétrico. mil dólares operados con frialdad. ... ochocientos setenta dólares de ganancia en una sola vela. Deja de jugar como un novato, porque...",
+  "loop_conector": "...si tu gráfico de IQ Option está en cinco segundos, apaga la pantalla ahora mismo.",
+  "qa_audit": {
+    "passed": true,
+    "word_count": 79,
+    "carencia_check": {
+      "passed": true,
+      "violations": []
+    },
+    "duracao_check": {
+      "passed": true,
+      "word_count": 79,
+      "target_range": "40-95 palavras"
+    },
+    "ancoragem_iqoption": {
+      "passed": true,
+      "detected_terms": [
+        "iq option",
+        "vela",
+        "gráfico",
+        "segundo",
+        "pavilo"
+      ]
+    },
+    "loop_invisivel": {
+      "passed": true,
+      "terminacao": "como un novato, porque..."
+    }
+  },
+  "audio_file": "narration.mp3"
+}

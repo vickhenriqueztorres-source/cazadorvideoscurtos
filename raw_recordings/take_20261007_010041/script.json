@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0.0",
+  "bible_version": "Bíblia do Cazador // Versão Oficial IQ Option",
+  "theme": "digital_vs_binarias",
+  "theme_title": "O Erro da Opção Digital vs Binária (O Empate que vira Loss)",
+  "ferida_psicologica": "O novato opera Digital sem entender spread e perde dinheiro no empate.",
+  "voice_config": {
+    "voice": "es-MX-JorgeNeural",
+    "rate": "-3%",
+    "pitch": "-2Hz",
+    "persona": "O Sniper dos Mercados / O Predador da IQ Option"
+  },
+  "script_5_atos": {
+    "fase_1_gancho": "¿Cuántas veces perdiste en IQ Option porque la vela terminó empatada en tu tasa?",
+    "fase_2_exposicion": "Perdiste porque no sabes la diferencia entre Binarias y Digital. El aficionado hace clic en la primera que ve y le regala su dinero al spread.",
+    "fase_3_mecanismo": "El Cazador elige el arma exacta. Vela de un minuto, rechazo limpio en la zona clave.",
+    "fase_4_disparo_silencio": "...",
+    "fase_4_tensao": "Vela retrocediendo con violencia. mil dólares en juego.",
+    "fase_5_recompensa_loop": "ochocientos setenta dólares al bolsillo sin regalarle un centavo al broker. Y es exactamente por eso que..."
+  },
+  "full_speech_text": "¿Cuántas veces perdiste en IQ Option porque la vela terminó empatada en tu tasa? ... Perdiste porque no sabes la diferencia entre Binarias y Digital. El aficionado hace clic en la primera que ve y le regala su dinero al spread. ... El Cazador elige el arma exacta. Vela de un minuto, rechazo limpio en la zona clave. ... ... Vela retrocediendo con violencia. mil dólares en juego. ... ochocientos setenta dólares al bolsillo sin regalarle un centavo al broker. Y es exactamente por eso que...",
+  "loop_conector": "...¿cuántas veces perdiste en IQ Option porque la vela terminó empatada en tu tasa?",
+  "qa_audit": {
+    "passed": true,
+    "word_count": 81,
+    "carencia_check": {
+      "passed": true,
+      "violations": []
+    },
+    "duracao_check": {
+      "passed": true,
+      "word_count": 81,
+      "target_range": "40-95 palavras"
+    },
+    "ancoragem_iqoption": {
+      "passed": true,
+      "detected_terms": [
+        "iq option",
+        "vela",
+        "binarias",
+        "digital"
+      ]
+    },
+    "loop_invisivel": {
+      "passed": true,
+      "terminacao": "xactamente por eso que..."
+    }
+  },
+  "audio_file": "narration.mp3"
+}

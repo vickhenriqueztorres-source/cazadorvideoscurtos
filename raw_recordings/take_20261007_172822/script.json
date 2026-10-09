@@ -1,0 +1,49 @@
+{
+  "schema_version": "2.0.0",
+  "bible_version": "Bíblia do Cazador // Versão Oficial IQ Option",
+  "theme": "otc_algoritmo",
+  "theme_title": "A Leitura do Algoritmo de OTC na IQ Option",
+  "ferida_psicologica": "Achar que OTC é manipulado e perder contra o fluxo institucional.",
+  "voice_config": {
+    "voice": "es-MX-JorgeNeural",
+    "rate": "-3%",
+    "pitch": "-2Hz",
+    "persona": "O Sniper dos Mercados / O Predador da IQ Option"
+  },
+  "script_5_atos": {
+    "fase_1_gancho": "El noventa por ciento pierde todo en el OTC de IQ Option por hacer esto...",
+    "fase_2_exposicion": "Creen que el OTC es una trampa. El algoritmo no sigue noticias, sigue flujo institucional y relleno de vacíos.",
+    "fase_3_mecanismo": "El Cazador no adivina: espera el agotamiento de volumen y caza el payout del ochenta y cinco por ciento.",
+    "fase_4_disparo_silencio": "...",
+    "fase_4_tensao": "Vela respetando el patrón exacto. cien dólares en la línea de fuego.",
+    "fase_5_recompensa_loop": "ochenta y cinco dólares directo a la cuenta mientras los demás lloran en los comentarios. Y si sigues operando a ciegas..."
+  },
+  "full_speech_text": "El noventa por ciento pierde todo en el OTC de IQ Option por hacer esto... ... Creen que el OTC es una trampa. El algoritmo no sigue noticias, sigue flujo institucional y relleno de vacíos. ... El Cazador no adivina: espera el agotamiento de volumen y caza el payout del ochenta y cinco por ciento. ... ... Vela respetando el patrón exacto. cien dólares en la línea de fuego. ... ochenta y cinco dólares directo a la cuenta mientras los demás lloran en los comentarios. Y si sigues operando a ciegas...",
+  "loop_conector": "...el noventa por ciento pierde todo en el OTC de IQ Option por hacer esto.",
+  "qa_audit": {
+    "passed": true,
+    "word_count": 86,
+    "carencia_check": {
+      "passed": true,
+      "violations": []
+    },
+    "duracao_check": {
+      "passed": true,
+      "word_count": 86,
+      "target_range": "40-95 palavras"
+    },
+    "ancoragem_iqoption": {
+      "passed": true,
+      "detected_terms": [
+        "iq option",
+        "vela",
+        "otc"
+      ]
+    },
+    "loop_invisivel": {
+      "passed": true,
+      "terminacao": "gues operando a ciegas..."
+    }
+  },
+  "audio_file": "narration.mp3"
+}

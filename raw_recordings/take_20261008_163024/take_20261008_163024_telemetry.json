@@ -1,0 +1,32 @@
+{
+  "take_id": "take_20261008_163024",
+  "timestamp_start": 0.0,
+  "click_event": {
+    "second_exact": 18.01,
+    "millisecond_exact": 18005,
+    "action": "CALL",
+    "button_coords": {
+      "x": 964,
+      "y": 1556
+    },
+    "button_coords_1080p": {
+      "x": 1855,
+      "y": 435
+    },
+    "investment_amount": 100,
+    "payout_pct": 82
+  },
+  "outcome_event": {
+    "expiration_second": 33.79,
+    "result": "WIN",
+    "profit_amount": 82
+  },
+  "fps": 30,
+  "resolution": "1080x1920",
+  "metadata_auditoria": {
+    "frames_gravados": 1003,
+    "duracao_total_segundos": 57.58,
+    "encoder_utilizado": "libx264_ultrafast",
+    "resolucao_saida": "1080x1920"
+  }
+}

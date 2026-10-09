@@ -1,0 +1,53 @@
+{
+  "schema_version": "2.0.0",
+  "bible_version": "Bíblia do Cazador // Versão Oficial IQ Option",
+  "theme": "rechazo_pavio_m1",
+  "theme_title": "O Falso Rompimento e o Segundo 31 do Relógio",
+  "ferida_psicologica": "Comprar no topo achando que vai romper e tomar loss no último segundo da vela.",
+  "voice_config": {
+    "voice": "es-MX-JorgeNeural",
+    "rate": "-3%",
+    "pitch": "-2Hz",
+    "persona": "O Sniper dos Mercados / O Predador da IQ Option"
+  },
+  "script_5_atos": {
+    "fase_1_gancho": "Vas a tomar loss en IQ Option cada vez que compres en este falso rompimiento.",
+    "fase_2_exposicion": "El aficionado ve la vela verde estirarse y compra en el techo por desesperación. Mira el gráfico: aquí abajo el soporte está blindado y el pavilo absorbió toda la fuerza.",
+    "fase_3_mecanismo": "Segundo treinta y uno del reloj de expiración. Zona de rechazo tocada. Gatillo apretado.",
+    "fase_4_disparo_silencio": "...",
+    "fase_4_tensao": "Vela derritiéndose a nuestro favor. cien dólares operados con frialdad.",
+    "fase_5_recompensa_loop": "ochenta y dos dólares asegurados en el retroceso. Deja de regalarle tu dinero al broker, porque..."
+  },
+  "full_speech_text": "Vas a tomar loss en IQ Option cada vez que compres en este falso rompimiento. ... El aficionado ve la vela verde estirarse y compra en el techo por desesperación. Mira el gráfico: aquí abajo el soporte está blindado y el pavilo absorbió toda la fuerza. ... Segundo treinta y uno del reloj de expiración. Zona de rechazo tocada. Gatillo apretado. ... ... Vela derritiéndose a nuestro favor. cien dólares operados con frialdad. ... ochenta y dos dólares asegurados en el retroceso. Deja de regalarle tu dinero al broker, porque...",
+  "loop_conector": "...vas a tomar loss en IQ Option cada vez que compres en este falso rompimiento.",
+  "qa_audit": {
+    "passed": true,
+    "word_count": 85,
+    "carencia_check": {
+      "passed": true,
+      "violations": []
+    },
+    "duracao_check": {
+      "passed": true,
+      "word_count": 85,
+      "target_range": "40-95 palavras"
+    },
+    "ancoragem_iqoption": {
+      "passed": true,
+      "detected_terms": [
+        "iq option",
+        "vela",
+        "gráfico",
+        "reloj",
+        "segundo",
+        "soporte",
+        "pavilo"
+      ]
+    },
+    "loop_invisivel": {
+      "passed": true,
+      "terminacao": "nero al broker, porque..."
+    }
+  },
+  "audio_file": "narration.mp3"
+}

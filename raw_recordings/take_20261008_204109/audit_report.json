@@ -1,0 +1,42 @@
+{
+  "take_id": "take_20261008_204109",
+  "video_file": "D:\\cazador - videos curtos\\output_shorts\\take_20261008_204109_final.mp4",
+  "audited_at": "2026-10-09T00:31:34.791470",
+  "overall_verdict": "PASSED",
+  "score": 100,
+  "gates": {
+    "gate_1_container": {
+      "passed": true,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "duration": 52.7
+    },
+    "gate_2_stream_integrity": {
+      "passed": true,
+      "black_frames_detected": 0,
+      "frozen_samples_detected": 0
+    },
+    "gate_3_header_tier1": {
+      "passed": true,
+      "samples_verified": 4,
+      "details": "Logo IQ Option e Saldo/Depósito 100% íntegros sem cortes no Tier 1"
+    },
+    "gate_4_bottom_tier3": {
+      "passed": true,
+      "details": "HUD Operacional no Tier 3 ativo com Saldo e Momento CALL/PUT sem cortes"
+    },
+    "gate_5_financial_win": {
+      "passed": true,
+      "result": "WIN",
+      "profit_amount": 82
+    },
+    "gate_6_audio_track": {
+      "passed": true,
+      "codec": "aac",
+      "channels": 1,
+      "duration_difference": 1.45
+    }
+  },
+  "errors": []
+}

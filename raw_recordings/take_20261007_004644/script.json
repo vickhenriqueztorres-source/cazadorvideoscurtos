@@ -1,0 +1,12 @@
+{
+  "voice": "es-MX-JorgeNeural",
+  "script_parts": {
+    "fase_1_gancho": "El noventa y nueve por ciento va a vender aquí.",
+    "fase_2_setup": "El cazador espera el rechazo en el soporte, no el precio.",
+    "fase_3_disparo_silencio": "...",
+    "fase_4_tensao": "Vela oscilando en la zona de fuego. Mil dólares en juego.",
+    "fase_5_recompensa": "Ochocientos setenta al bolsillo. Sigue al Cazador para operar así."
+  },
+  "full_text": "El noventa y nueve por ciento va a vender aquí. ... El cazador espera el rechazo en el soporte, no el precio. ... ... ... Vela oscilando en la zona de fuego. Mil dólares en juego. ... Ochocientos setenta al bolsillo. Sigue al Cazador para operar así.",
+  "audio_file": "narration.mp3"
+}

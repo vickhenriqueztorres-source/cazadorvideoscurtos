@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "version": "2.0.0",
+    "resolution_native": "1920x1080",
+    "resolution_vertical_9_16": "1080x1920",
+    "calibrated_at": "2026-10-07 01:30:33",
+    "status": "CALIBRADO_IQ_OPTION_OFICIAL",
+    "monitor_index": 1,
+    "platform": "IQ Option (Web / Desktop Fullscreen)",
+    "last_live_detection": "2026-10-07 15:30:34",
+    "live_detected_window": "Broker Sintéticos Demo - OTC Trading - Google Chrome",
+    "window_detected": "IQ Option - Google Chrome"
+  },
+  "elements_1080p": {
+    "btn_call": {
+      "x": 1854,
+      "y": 459,
+      "box": [
+        1800,
+        410,
+        110,
+        110
+      ],
+      "desc": "Botão Verde CALL / COMPRA (Detectado ao vivo)"
+    },
+    "btn_put": {
+      "x": 1853,
+      "y": 580,
+      "box": [
+        1800,
+        526,
+        110,
+        110
+      ],
+      "desc": "Botão Vermelho PUT / VENDA (Detectado ao vivo)"
+    },
+    "campo_valor_investimento": {
+      "x": 1860,
+      "y": 190,
+      "desc": "Campo Valor Investimento (Calibrado ao vivo)"
+    },
+    "campo_tempo_expiracao": {
+      "x": 1855,
+      "y": 270,
+      "desc": "Campo Tempo Expiracao (Calibrado ao vivo)"
+    },
+    "painel_payout": {
+      "x": 1770,
+      "y": 556,
+      "desc": "Indicador de Payout / Rendimento da Corretora"
+    },
+    "centro_grafico": {
+      "x": 960,
+      "y": 540,
+      "desc": "Centro da Área de Ação dos Candlesticks"
+    },
+    "tipo_grafico": {
+      "x": 82,
+      "y": 733,
+      "desc": "Ícone Tipo de Gráfico (Detectado)"
+    },
+    "periodo_vela": {
+      "x": 82,
+      "y": 830,
+      "desc": "Ícone Período da Vela 5s"
+    },
+    "indicadores": {
+      "x": 82,
+      "y": 942,
+      "desc": "Ícone Indicadores (Detectado)"
+    }
+  },
+  "elements_roi_9_16": {
+    "crop_x": 840,
+    "crop_y": 0,
+    "crop_width": 1080,
+    "crop_height": 1920,
+    "relative_coords": {
+      "btn_call": {
+        "x": 964,
+        "y": 1556,
+        "desc": "Botão CALL remapeado no espaço vertical 9:16 (1080x1920)"
+      },
+      "btn_put": {
+        "x": 920,
+        "y": 1620,
+        "desc": "Botão PUT remapeado no espaço vertical 9:16 (1080x1920)"
+      },
+      "campo_valor": {
+        "x": 920,
+        "y": 1150,
+        "desc": "Campo de Valor remapeado no espaço vertical 9:16"
+      },
+      "centro_candles": {
+        "x": 450,
+        "y": 960,
+        "desc": "Foco da vela sniper no espaço vertical 9:16"
+      }
+    }
+  }
+}
