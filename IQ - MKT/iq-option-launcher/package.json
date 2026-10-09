@@ -1,0 +1,23 @@
+{
+  "name": "trading-visual-theme",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "check": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "verify": "npm run check && npm run test && npm run build",
+    "fixture": "node scripts/fixture-server.mjs"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.3.0",
+    "@types/node": "^24.0.0",
+    "esbuild": "0.28.2",
+    "jsdom": "30.0.1",
+    "typescript": "7.0.2",
+    "vite": "8.3.0",
+    "vitest": "5.0.1"
+  }
+}

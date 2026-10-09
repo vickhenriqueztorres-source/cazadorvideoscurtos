@@ -1,0 +1,404 @@
+[
+  {
+    "id": "ECDBA2FD45BEC10AD4B4A1383C2B9B8A",
+    "type": "page",
+    "title": "IQ Option",
+    "url": "https://iqoption.com/traderoom",
+    "runtime": {
+      "scope": "document",
+      "url": "https://iqoption.com/traderoom",
+      "hookInstalled": true,
+      "contexts": [
+        {
+          "contextId": "context_0001",
+          "canvasId": "canvas_0001",
+          "elementId": null,
+          "width": 300,
+          "height": 150,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "contextType": "2d",
+          "attributes": null,
+          "scope": "document",
+          "runtimeHook": true,
+          "canvas2dHook": true,
+          "webglHook": false,
+          "editorHook": false,
+          "ruleId": null
+        },
+        {
+          "contextId": "context_0002",
+          "canvasId": "canvas_0002",
+          "elementId": null,
+          "width": 300,
+          "height": 150,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "contextType": "2d",
+          "attributes": null,
+          "scope": "document",
+          "runtimeHook": true,
+          "canvas2dHook": true,
+          "webglHook": false,
+          "editorHook": false,
+          "ruleId": null
+        },
+        {
+          "contextId": "context_0003",
+          "canvasId": "canvas_0003",
+          "elementId": null,
+          "width": 300,
+          "height": 150,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "contextType": "webgl",
+          "attributes": null,
+          "scope": "document",
+          "runtimeHook": true,
+          "canvas2dHook": false,
+          "webglHook": true,
+          "editorHook": false,
+          "ruleId": null
+        },
+        {
+          "contextId": "context_0004",
+          "canvasId": "canvas_0004",
+          "elementId": "glcanvas",
+          "width": 1920,
+          "height": 945,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 945,
+            "top": 0,
+            "right": 1920,
+            "bottom": 945,
+            "left": 0
+          },
+          "contextType": "webgl",
+          "attributes": {
+            "alpha": true,
+            "depth": false,
+            "stencil": false,
+            "antialias": false,
+            "premultipliedAlpha": false,
+            "preserveDrawingBuffer": false,
+            "powerPreference": "default",
+            "failIfMajorPerformanceCaveat": false,
+            "majorVersion": 1,
+            "minorVersion": 0,
+            "enableExtensionsByDefault": 1,
+            "explicitSwapControl": 0,
+            "proxyContextToMainThread": 0,
+            "renderViaOffscreenBackBuffer": 0
+          },
+          "scope": "document",
+          "runtimeHook": true,
+          "canvas2dHook": false,
+          "webglHook": true,
+          "editorHook": true,
+          "ruleId": "real-header-match-demo"
+        },
+        {
+          "contextId": "context_0005",
+          "canvasId": "canvas_0005",
+          "elementId": null,
+          "width": 16,
+          "height": 16,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "contextType": "2d",
+          "attributes": null,
+          "scope": "document",
+          "runtimeHook": true,
+          "canvas2dHook": true,
+          "webglHook": false,
+          "editorHook": false,
+          "ruleId": null
+        }
+      ],
+      "serials": {
+        "canvas": 5,
+        "context": 5,
+        "buffer": 7,
+        "shader": 27,
+        "program": 22,
+        "uniform": 48,
+        "texture": 15,
+        "draw": 13882
+      },
+      "canvases": [
+        {
+          "id": "glcanvas",
+          "width": 1920,
+          "height": 945,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 945,
+            "top": 0,
+            "right": 1920,
+            "bottom": 945,
+            "left": 0
+          },
+          "display": "block",
+          "visibility": "visible",
+          "zIndex": "auto"
+        },
+        {
+          "id": "",
+          "width": 300,
+          "height": 150,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "display": "none",
+          "visibility": "visible",
+          "zIndex": "auto"
+        },
+        {
+          "id": "",
+          "width": 300,
+          "height": 150,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "display": "none",
+          "visibility": "visible",
+          "zIndex": "auto"
+        },
+        {
+          "id": "",
+          "width": 300,
+          "height": 150,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "display": "none",
+          "visibility": "visible",
+          "zIndex": "auto"
+        },
+        {
+          "id": "",
+          "width": 300,
+          "height": 150,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "display": "none",
+          "visibility": "visible",
+          "zIndex": "auto"
+        }
+      ],
+      "overlays": [
+        {
+          "id": "real-header-match-demo",
+          "visibleChildren": [
+            {
+              "tag": "DIV",
+              "width": 245,
+              "height": 75,
+              "background": "rgba(0, 0, 0, 0)"
+            }
+          ]
+        }
+      ],
+      "origin": {
+        "accountPositions": 120,
+        "depositPositions": 54,
+        "balanceColors": 84,
+        "depositIconColors": 12,
+        "interceptedWrites": 0,
+        "interceptedBytes": 0
+      },
+      "visualControl": {
+        "enabled": true,
+        "features": {
+          "FLICKER_TRACE": true,
+          "PRE_RENDER_REMAP": true,
+          "REFERENCE_SYNC": true,
+          "ICON_SUPPRESSION": true,
+          "COLOR_REMAP": true,
+          "OVERLAY_FALLBACK": true
+        },
+        "ruleId": "real-header-match-demo"
+      }
+    }
+  },
+  {
+    "id": "15222D8A025550BC44D11BC044916DFD",
+    "type": "iframe",
+    "title": "https://gum.criteo.com/syncframe?topUrl=iqoption.com&amp;origin=onetag#{%22bundle%22:{%22identifierExtractor%22:{%22origin%22:3},%22value%22:%22Qq9LLV85WWNRQXFoemFINVpBSG54MHlBNHVKMW85M3B0aElBS21GcHpsdCUyRjlYSFFDZWRGMUQ2cWFmaFVETlFDOXpQZlNGeUFQUlclMkJyVFNCSUpjS2lYYkxJY29ncU1wSDJxTHdyMERKJTJGdzBHVExYZm51UWRoQWdobFhxMVBmWmxvOEx1QWFoV3dUcWVweGc4T2h4M0V6VVNjMXclM0QlM0Q%22},%22cw%22:true,%22optout%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22origin%22:%22onetag%22,%22tld%22:%22iqoption.com%22,%22topUrl%22:%22iqoption.com%22,%22version%22:%225_50_0%22,%22ifa%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22lsw%22:true,%22pm%22:0,%22requestId%22:%22f9458274-ef29-4527-b25c-f2663164ae71%22}",
+    "url": "https://gum.criteo.com/syncframe?topUrl=iqoption.com&origin=onetag#{%22bundle%22:{%22identifierExtractor%22:{%22origin%22:3},%22value%22:%22Qq9LLV85WWNRQXFoemFINVpBSG54MHlBNHVKMW85M3B0aElBS21GcHpsdCUyRjlYSFFDZWRGMUQ2cWFmaFVETlFDOXpQZlNGeUFQUlclMkJyVFNCSUpjS2lYYkxJY29ncU1wSDJxTHdyMERKJTJGdzBHVExYZm51UWRoQWdobFhxMVBmWmxvOEx1QWFoV3dUcWVweGc4T2h4M0V6VVNjMXclM0QlM0Q%22},%22cw%22:true,%22optout%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22origin%22:%22onetag%22,%22tld%22:%22iqoption.com%22,%22topUrl%22:%22iqoption.com%22,%22version%22:%225_50_0%22,%22ifa%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22lsw%22:true,%22pm%22:0,%22requestId%22:%22f9458274-ef29-4527-b25c-f2663164ae71%22}",
+    "runtime": {
+      "scope": "document",
+      "url": "https://gum.criteo.com/syncframe?topUrl=iqoption.com&origin=onetag#{%22bundle%22:{%22identifierExtractor%22:{%22origin%22:3},%22value%22:%22Qq9LLV85WWNRQXFoemFINVpBSG54MHlBNHVKMW85M3B0aElBS21GcHpsdCUyRjlYSFFDZWRGMUQ2cWFmaFVETlFDOXpQZlNGeUFQUlclMkJyVFNCSUpjS2lYYkxJY29ncU1wSDJxTHdyMERKJTJGdzBHVExYZm51UWRoQWdobFhxMVBmWmxvOEx1QWFoV3dUcWVweGc4T2h4M0V6VVNjMXclM0QlM0Q%22},%22cw%22:true,%22optout%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22origin%22:%22onetag%22,%22tld%22:%22iqoption.com%22,%22topUrl%22:%22iqoption.com%22,%22version%22:%225_50_0%22,%22ifa%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22lsw%22:true,%22pm%22:0,%22requestId%22:%22f9458274-ef29-4527-b25c-f2663164ae71%22}",
+      "hookInstalled": false,
+      "contexts": [],
+      "serials": {},
+      "canvases": [],
+      "overlays": [],
+      "origin": null,
+      "visualControl": null
+    }
+  },
+  {
+    "id": "2517BB2B3996155252A37B6F47AD0FAE",
+    "type": "iframe",
+    "title": "https://14674650.fls.doubleclick.net/activityi;dc_pre=CLre3vDf9ZYDFYG6lQIduRUcEA;src=14674650;type=gtm_tags;cat=count0;rcb=10;ord=3034060499117;u=GA1.1.181528921.1789566066;match_id=GA1.1.181528921.1789566066;npa=0;auiddc=1248154589.1789566065;u4=GA1.1.181528921.1789566066;u2=undefined;uaa=x86;uab=64;uafvl=Chromium%3B152.0.7977.83%7CNot%253FA_Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B152.0.7977.83;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=KFA;gtm=45fe69f3h1v9188486487z871091579za20gzb71091579zd71091579xea;gcs=G1--;gcd=13l3l3R3l5l1;dma=0;dc_fmt=2;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847434;epver=2;em=tv.1;dc_random=1789652710_RwnnR89Wv4kt_TPZ2Mef9kgXIvBWcawUnQ;_dc_test=1;~oref=https%3A%2F%2Fiqoption.com%2Ftraderoom?",
+    "url": "https://14674650.fls.doubleclick.net/activityi;dc_pre=CLre3vDf9ZYDFYG6lQIduRUcEA;src=14674650;type=gtm_tags;cat=count0;rcb=10;ord=3034060499117;u=GA1.1.181528921.1789566066;match_id=GA1.1.181528921.1789566066;npa=0;auiddc=1248154589.1789566065;u4=GA1.1.181528921.1789566066;u2=undefined;uaa=x86;uab=64;uafvl=Chromium%3B152.0.7977.83%7CNot%253FA_Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B152.0.7977.83;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=KFA;gtm=45fe69f3h1v9188486487z871091579za20gzb71091579zd71091579xea;gcs=G1--;gcd=13l3l3R3l5l1;dma=0;dc_fmt=2;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847434;epver=2;em=tv.1;dc_random=1789652710_RwnnR89Wv4kt_TPZ2Mef9kgXIvBWcawUnQ;_dc_test=1;~oref=https%3A%2F%2Fiqoption.com%2Ftraderoom?",
+    "runtime": {
+      "scope": "document",
+      "url": "https://14674650.fls.doubleclick.net/activityi;dc_pre=CLre3vDf9ZYDFYG6lQIduRUcEA;src=14674650;type=gtm_tags;cat=count0;rcb=10;ord=3034060499117;u=GA1.1.181528921.1789566066;match_id=GA1.1.181528921.1789566066;npa=0;auiddc=1248154589.1789566065;u4=GA1.1.181528921.1789566066;u2=undefined;uaa=x86;uab=64;uafvl=Chromium%3B152.0.7977.83%7CNot%253FA_Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B152.0.7977.83;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=KFA;gtm=45fe69f3h1v9188486487z871091579za20gzb71091579zd71091579xea;gcs=G1--;gcd=13l3l3R3l5l1;dma=0;dc_fmt=2;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847434;epver=2;em=tv.1;dc_random=1789652710_RwnnR89Wv4kt_TPZ2Mef9kgXIvBWcawUnQ;_dc_test=1;~oref=https%3A%2F%2Fiqoption.com%2Ftraderoom?",
+      "hookInstalled": false,
+      "contexts": [],
+      "serials": {},
+      "canvases": [],
+      "overlays": [],
+      "origin": null,
+      "visualControl": null
+    }
+  },
+  {
+    "id": "787951228DC3366D484F7096BEC45418",
+    "type": "iframe",
+    "title": "https://tr.snapchat.com/cm/i?pid=9c2ddd81-b080-4dd4-9b27-4e25285634ba&amp;u_scsid=8651ad1e-841f-4f5d-afb5-e628213c414c&amp;u_sclid=f746cbcf-0a82-40d8-abef-184794c71ff9",
+    "url": "https://tr.snapchat.com/cm/i?pid=9c2ddd81-b080-4dd4-9b27-4e25285634ba&u_scsid=8651ad1e-841f-4f5d-afb5-e628213c414c&u_sclid=f746cbcf-0a82-40d8-abef-184794c71ff9",
+    "runtime": {
+      "scope": "document",
+      "url": "https://tr.snapchat.com/cm/i?pid=9c2ddd81-b080-4dd4-9b27-4e25285634ba&u_scsid=8651ad1e-841f-4f5d-afb5-e628213c414c&u_sclid=f746cbcf-0a82-40d8-abef-184794c71ff9",
+      "hookInstalled": false,
+      "contexts": [],
+      "serials": {},
+      "canvases": [],
+      "overlays": [],
+      "origin": null,
+      "visualControl": null
+    }
+  },
+  {
+    "id": "F110BA54B08056A45C5DB94574DE99C8",
+    "type": "page",
+    "title": "Render Inspector",
+    "url": "http://127.0.0.1:8765/?token=Y2BWfI-J0mbR5N2Cxfo-58DHU81Mp_NeJJkL-feDbmc",
+    "runtime": {
+      "scope": "document",
+      "url": "http://127.0.0.1:8765/?token=Y2BWfI-J0mbR5N2Cxfo-58DHU81Mp_NeJJkL-feDbmc",
+      "hookInstalled": true,
+      "contexts": [],
+      "serials": {},
+      "canvases": [],
+      "overlays": [],
+      "origin": null,
+      "visualControl": null
+    }
+  },
+  {
+    "id": "71E2A5C20E623F39A0374DCBF43AA195",
+    "type": "browser_ui",
+    "title": "Omnibox Popup",
+    "url": "chrome://omnibox-popup.top-chrome/"
+  },
+  {
+    "id": "A903ED8DE6663FE5FAC77422719BED30",
+    "type": "browser_ui",
+    "title": "Omnibox Popup",
+    "url": "chrome://omnibox-popup.top-chrome/omnibox_popup_aim.html"
+  },
+  {
+    "id": "C22C34A2D0777C184FB6A1227D92EA45",
+    "type": "service_worker",
+    "title": "Service Worker https://iqoption.com/traderoom/service-worker.js",
+    "url": "https://iqoption.com/traderoom/service-worker.js",
+    "runtime": {
+      "scope": "worker",
+      "url": "https://iqoption.com/traderoom/service-worker.js",
+      "hookInstalled": true,
+      "contexts": [],
+      "serials": {},
+      "canvases": [],
+      "overlays": [],
+      "origin": null,
+      "visualControl": null
+    }
+  },
+  {
+    "id": "D96613B1D8991478555E5DEFD3EC16F2",
+    "type": "worker",
+    "title": "blob:https://iqoption.com/2b4eb958-753f-4920-94e2-5ed06a408008",
+    "url": "blob:https://iqoption.com/2b4eb958-753f-4920-94e2-5ed06a408008",
+    "runtime": {
+      "scope": "worker",
+      "url": "blob:https://iqoption.com/2b4eb958-753f-4920-94e2-5ed06a408008",
+      "hookInstalled": true,
+      "contexts": [],
+      "serials": {},
+      "canvases": [],
+      "overlays": [],
+      "origin": null,
+      "visualControl": null
+    }
+  }
+]

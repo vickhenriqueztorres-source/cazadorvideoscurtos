@@ -1,0 +1,22 @@
+{
+  "id": "high-contrast",
+  "name": "Alto contraste",
+  "rules": [
+    {
+      "selector": ".approved-readonly-value",
+      "properties": { "color": "#00e5ff" }
+    },
+    {
+      "selector": ".approved-readonly-caption",
+      "properties": { "color": "hsl(48 100% 60%)" }
+    },
+    {
+      "selector": "[data-theme-target='readonly-profit']",
+      "properties": { "color": "#8bff6a" }
+    },
+    {
+      "selector": "[data-theme-target='readonly-loss']",
+      "properties": { "color": "#ff6b9a" }
+    }
+  ]
+}

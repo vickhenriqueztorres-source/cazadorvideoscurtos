@@ -1,0 +1,35 @@
+<!doctype html><meta charset="utf-8"><title>Pre-render flicker fixture</title>
+<style>html,body{margin:0;background:#191512}canvas{display:inline-block;width:100px;height:100px}</style>
+<canvas id="flicker-canvas2d" width="100" height="100"></canvas><canvas id="flicker-webgl-uniform" width="100" height="100"></canvas>
+<script>
+const orange=[232,101,2],green=[81,168,93];
+const canvas2d=document.getElementById('flicker-canvas2d'),ctx=canvas2d.getContext('2d');
+const webgl=document.getElementById('flicker-webgl-uniform'),gl=webgl.getContext('webgl',{preserveDrawingBuffer:true});
+const vs=gl.createShader(gl.VERTEX_SHADER),fs=gl.createShader(gl.FRAGMENT_SHADER);
+gl.shaderSource(vs,'attribute vec2 p;void main(){gl_Position=vec4(p,0.0,1.0);}');
+gl.shaderSource(fs,'precision mediump float;uniform vec4 uColor;void main(){gl_FragColor=uColor;}');
+gl.compileShader(vs);gl.compileShader(fs);
+const program=gl.createProgram();gl.attachShader(program,vs);gl.attachShader(program,fs);gl.linkProgram(program);gl.useProgram(program);
+const buffer=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buffer);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,3,-1,-1,3]),gl.STATIC_DRAW);
+const position=gl.getAttribLocation(program,'p');gl.enableVertexAttribArray(position);gl.vertexAttribPointer(position,2,gl.FLOAT,false,0,0);
+const color=gl.getUniformLocation(program,'uColor');gl.viewport(0,0,100,100);
+function renderFixture(frame=0){
+  ctx.fillStyle='#e86502';ctx.fillRect(0,0,100,100);
+  gl.uniform4f(color,232/255,101/255,2/255,1);gl.drawArrays(gl.TRIANGLES,0,3);
+  globalThis.__riFlickerTrace?.record('REFERENCE_TARGET_SYNC',{motionDeltaPx:0,referenceFrame:frame,targetFrame:frame});
+}
+function pixel2d(){return Array.from(ctx.getImageData(50,50,1,1).data);}
+function pixelGl(){const value=new Uint8Array(4);gl.readPixels(50,50,1,1,gl.RGBA,gl.UNSIGNED_BYTE,value);return Array.from(value);}
+function isOrange(value){return Math.abs(value[0]-orange[0])<3&&Math.abs(value[1]-orange[1])<3&&Math.abs(value[2]-orange[2])<3;}
+function isGreen(value){return Math.abs(value[0]-green[0])<3&&Math.abs(value[1]-green[1])<3&&Math.abs(value[2]-green[2])<3;}
+globalThis.runFlickerBurst=count=>new Promise(resolve=>{
+  const result={frames:0,canvasOrangeFrames:0,webglOrangeFrames:0,canvasGreenFrames:0,webglGreenFrames:0};
+  const next=()=>requestAnimationFrame(()=>{
+    renderFixture(result.frames);const a=pixel2d(),b=pixelGl();result.frames++;
+    if(isOrange(a))result.canvasOrangeFrames++;if(isOrange(b))result.webglOrangeFrames++;
+    if(isGreen(a))result.canvasGreenFrames++;if(isGreen(b))result.webglGreenFrames++;
+    if(result.frames>=count)resolve(result);else next();
+  });next();
+});
+renderFixture();globalThis.fixtureReady=true;
+</script>

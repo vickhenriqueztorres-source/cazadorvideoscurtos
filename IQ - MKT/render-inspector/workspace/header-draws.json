@@ -1,0 +1,15 @@
+{
+  "draws": [],
+  "origin": {
+    "accountPositions": 180,
+    "depositPositions": 54,
+    "balanceColors": 84,
+    "depositIconColors": 12,
+    "interceptedWrites": 0,
+    "interceptedBytes": 0
+  },
+  "viewport": [
+    1159,
+    944
+  ]
+}

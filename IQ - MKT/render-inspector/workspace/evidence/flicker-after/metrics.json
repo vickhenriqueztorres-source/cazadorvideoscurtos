@@ -1,0 +1,28 @@
+{
+  "renderer": "WebGL",
+  "status": "PASS",
+  "grade": "B",
+  "classifications": [],
+  "observedFrames": 120,
+  "incorrectStateFrames": 0,
+  "incorrectStateFrameIds": [],
+  "postRenderOverrideFrames": 0,
+  "referenceTargetMaxDeltaPx": 0.0,
+  "averageOverrideDurationMs": 0.0563,
+  "maximumOverrideDurationMs": 12.4,
+  "averageDrawDurationMs": 0.0267,
+  "averageFrameIntervalMs": 17.5269,
+  "maximumFrameIntervalMs": 72.1,
+  "droppedFrameEstimate": 6,
+  "eventCount": 1442,
+  "droppedTraceEvents": 0,
+  "rootCause": "No incorrect target state reached an observed renderer draw.",
+  "recommendedFix": "Keep the renderer-local hook and re-run the trace after renderer changes.",
+  "pixelBurst": {
+    "frames": 120,
+    "canvasOrangeFrames": 0,
+    "webglOrangeFrames": 0,
+    "canvasGreenFrames": 120,
+    "webglGreenFrames": 120
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "origin": {
+    "accountPositions": 120,
+    "depositPositions": 54,
+    "balanceColors": 84,
+    "depositIconColors": 12,
+    "interceptedWrites": 0,
+    "interceptedBytes": 0
+  },
+  "viewport": [
+    1920,
+    945
+  ],
+  "accountMode": "vertices",
+  "depositMode": "vertices",
+  "hasAccountPixels": false,
+  "control": {
+    "enabled": true,
+    "features": {
+      "FLICKER_TRACE": true,
+      "PRE_RENDER_REMAP": true,
+      "REFERENCE_SYNC": true,
+      "ICON_SUPPRESSION": true,
+      "COLOR_REMAP": true,
+      "OVERLAY_FALLBACK": true
+    },
+    "ruleId": "real-header-match-demo"
+  },
+  "overlays": [
+    {
+      "id": "real-header-match-demo",
+      "children": [
+        {
+          "tag": "CANVAS",
+          "display": "none",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "tag": "DIV",
+          "display": "none",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "tag": "CANVAS",
+          "display": "none",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "tag": "DIV",
+          "display": "none",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "tag": "CANVAS",
+          "display": "none",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "tag": "CANVAS",
+          "display": "none",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "tag": "DIV",
+          "display": "block",
+          "width": 245,
+          "height": 75
+        }
+      ]
+    }
+  ]
+}

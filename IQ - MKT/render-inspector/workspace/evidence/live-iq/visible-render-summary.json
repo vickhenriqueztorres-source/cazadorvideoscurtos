@@ -1,0 +1,20 @@
+{
+  "session": "20260916_104101_09adba",
+  "url": "https://iqoption.com/traderoom",
+  "mode": "visible persistent owned profile",
+  "renderEvents": {
+    "CANVAS_CONTEXT_CREATED": 5,
+    "CANVAS2D_TEXT": 2,
+    "WEBGL_HOOK_INSTALLED": 2,
+    "WEBGL_SHADER_CREATED": 2,
+    "WEBGL_SHADER_SOURCE": 2,
+    "WEBGL_PROGRAM_CREATED": 1,
+    "WEBGL_PROGRAM_LINKED": 1,
+    "WEBGL_BUFFER_CREATED": 1,
+    "WEBGL_UNIFORM_LOCATION": 1,
+    "WEBGL_UNIFORM_UPDATED": 1,
+    "WEBGL_DRAW": 1
+  },
+  "interpretation": "render pipeline discovered; no claim that the sampled draw owns a user-selected pixel",
+  "note": "service-worker attach timeouts seen in this run were fixed and a later startup run recorded zero HOOK_FAILED events"
+}

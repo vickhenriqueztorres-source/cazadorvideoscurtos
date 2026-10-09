@@ -1,0 +1,16 @@
+<!doctype html><meta charset="utf-8"><title>WebGL editor fixture</title>
+<style>body{margin:0;background:#191512}</style><canvas id="glcanvas" width="1920" height="100"></canvas>
+<script>
+const gl=glcanvas.getContext('webgl',{preserveDrawingBuffer:true});
+const vs=gl.createShader(gl.VERTEX_SHADER),fs=gl.createShader(gl.FRAGMENT_SHADER);
+gl.shaderSource(vs,'attribute vec4 a_position;attribute vec4 a_color;varying vec4 color;void main(){gl_Position=vec4(a_position);color=a_color;}');
+gl.shaderSource(fs,'precision mediump float;varying vec4 color;void main(){gl_FragColor=color;}');gl.compileShader(vs);gl.compileShader(fs);
+const program=gl.createProgram();gl.attachShader(program,vs);gl.attachShader(program,fs);gl.linkProgram(program);gl.useProgram(program);
+const vertices=[],indices=[];function quad(x0,top,x1,bottom,color){const base=vertices.length/8;for(const [x,y] of [[x0,top],[x1,top],[x1,bottom],[x0,bottom]]){vertices.push(x/960-1,1-y/50,...color,0,0);}indices.push(base,base+1,base+2,base,base+2,base+3)}
+const orange=[232/255,101/255,2/255,1],green=[81/255,168/255,93/255,1],gray=[128/255,128/255,128/255,1];
+quad(1540,20,1590,50,gray);const balanceBase=vertices.length/8;quad(1620,20,1705,50,orange);quad(1755,14,1910,15,green);quad(1755,59,1910,60,green);quad(1755,14,1756,60,green);quad(1762,53,1763,57,green);quad(1909,14,1910,60,green);quad(1775,25,1805,45,green);quad(1820,25,1885,45,green);
+const packed=new ArrayBuffer(vertices.length/8*16),view=new DataView(packed);for(let i=0;i<vertices.length/8;i++){view.setFloat32(i*16,vertices[i*8],true);view.setFloat32(i*16+4,vertices[i*8+1],true);for(let c=0;c<4;c++)view.setUint8(i*16+8+c,Math.round(vertices[i*8+2+c]*255));view.setInt16(i*16+12,0,true);view.setInt16(i*16+14,0,true)}
+const vb=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,vb);gl.bufferData(gl.ARRAY_BUFFER,packed,gl.STATIC_DRAW);const ib=gl.createBuffer();gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER,ib);gl.bufferData(gl.ELEMENT_ARRAY_BUFFER,new Uint16Array(indices),gl.STATIC_DRAW);
+const p=gl.getAttribLocation(program,'a_position'),c=gl.getAttribLocation(program,'a_color');gl.enableVertexAttribArray(p);gl.vertexAttribPointer(p,2,gl.FLOAT,false,16,0);gl.enableVertexAttribArray(c);gl.vertexAttribPointer(c,4,gl.UNSIGNED_BYTE,true,16,8);gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA);gl.clearColor(25/255,21/255,18/255,1);gl.clear(gl.COLOR_BUFFER_BIT);gl.drawElements(gl.TRIANGLES,indices.length,gl.UNSIGNED_SHORT,0);window.fixtureReady=true;
+window.refreshFixture=()=>{gl.bindBuffer(gl.ARRAY_BUFFER,vb);for(let i=0;i<4;i++)gl.bufferSubData(gl.ARRAY_BUFFER,(balanceBase+i)*16+8,new Uint8Array([232,101,2,255]));gl.clear(gl.COLOR_BUFFER_BIT);gl.drawElements(gl.TRIANGLES,indices.length,gl.UNSIGNED_SHORT,0)};
+</script>

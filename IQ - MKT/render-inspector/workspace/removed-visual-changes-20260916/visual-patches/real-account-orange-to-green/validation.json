@@ -1,0 +1,90 @@
+{
+  "image_size": [
+    1920,
+    945
+  ],
+  "regions": {
+    "balance": {
+      "box": [
+        1590,
+        0,
+        1745,
+        76
+      ],
+      "before": {
+        "orange_pixels": 507,
+        "green_pixels": 58,
+        "mean_rgb": [
+          35.54,
+          26.05,
+          18.17
+        ]
+      },
+      "after": {
+        "orange_pixels": 0,
+        "green_pixels": 686,
+        "mean_rgb": [
+          29.59,
+          30.11,
+          22.31
+        ]
+      }
+    },
+    "deposit": {
+      "box": [
+        1735,
+        0,
+        1919,
+        76
+      ],
+      "before": {
+        "orange_pixels": 0,
+        "green_pixels": 997,
+        "mean_rgb": [
+          30.05,
+          31.99,
+          22.89
+        ]
+      },
+      "after": {
+        "orange_pixels": 0,
+        "green_pixels": 997,
+        "mean_rgb": [
+          30.05,
+          31.99,
+          22.89
+        ]
+      }
+    },
+    "up_button": {
+      "box": [
+        1785,
+        315,
+        1919,
+        445
+      ],
+      "before": {
+        "orange_pixels": 11566,
+        "green_pixels": 0,
+        "mean_rgb": [
+          172.65,
+          83.99,
+          17.0
+        ]
+      },
+      "after": {
+        "orange_pixels": 11566,
+        "green_pixels": 0,
+        "mean_rgb": [
+          172.65,
+          83.99,
+          17.0
+        ]
+      }
+    }
+  },
+  "sha256": {
+    "before": "b5e82510e62efc5ed88a1cbbca0c962017a7c1f57d94c06a04d69c9c68290ede",
+    "after": "5155d9393bfcf35dcc4e9fab37c33c8ca936d28deb37f9dba270ecc95bd06654"
+  }
+}

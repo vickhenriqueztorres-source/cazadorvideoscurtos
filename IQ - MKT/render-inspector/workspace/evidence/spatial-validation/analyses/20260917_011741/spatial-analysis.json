@@ -1,0 +1,28 @@
+{
+  "kind": "WebGL frame / spatial evidence",
+  "status": "INCONCLUSIVE",
+  "score": null,
+  "evidence": [
+    "0 commands captured (animation-frame)",
+    "0 draws have supported geometry covering the selected pixel",
+    "0 draw calls changed that pixel during execution",
+    "Exclusive ownership and semantic component identity are not confirmed"
+  ],
+  "data": {
+    "canvasId": "canvas_0004",
+    "point": {
+      "x": 1736,
+      "y": 909
+    },
+    "drawCount": 0,
+    "spatialMatches": [],
+    "pixelChanges": [],
+    "unsupportedDraws": [],
+    "limitations": [
+      "Texture contents and independent replay are not captured; pixel deltas establish contributions, not exclusive ownership.",
+      "Capture spans two animation-frame boundaries; multiple render passes may occur.",
+      "ANGLE instancing draws are not intercepted"
+    ],
+    "captureError": null
+  }
+}

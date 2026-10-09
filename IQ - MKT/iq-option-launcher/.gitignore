@@ -1,0 +1,7 @@
+node_modules/
+dist/
+desktop/build/
+desktop/dist/
+__pycache__/
+*.spec
+.venv/

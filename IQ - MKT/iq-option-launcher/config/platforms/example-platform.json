@@ -1,0 +1,21 @@
+{
+  "id": "local-demo",
+  "version": "1.0.0",
+  "matchPatterns": ["http://127.0.0.1/*"],
+  "supportedRoutes": ["/", "/trade", "/demo", "/spa-navigation.html", "/delayed-elements.html", "/shadow-root-open.html"],
+  "allowedSelectors": [
+    ".approved-readonly-value",
+    ".approved-readonly-caption",
+    "[data-theme-target='readonly-profit']",
+    "[data-theme-target='readonly-loss']"
+  ],
+  "blockedSelectorPatterns": [
+    "button",
+    "input",
+    "select",
+    "textarea",
+    "form",
+    "[role='button']",
+    "[contenteditable='true']"
+  ]
+}

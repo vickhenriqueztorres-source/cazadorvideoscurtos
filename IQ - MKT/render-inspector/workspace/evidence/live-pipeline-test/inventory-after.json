@@ -1,0 +1,282 @@
+{
+  "scope": "document",
+  "url": "https://iqoption.com/traderoom",
+  "hookInstalled": true,
+  "contexts": [
+    {
+      "contextId": "context_0001",
+      "canvasId": "canvas_0001",
+      "elementId": null,
+      "width": 300,
+      "height": 150,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "contextType": "2d",
+      "attributes": null,
+      "scope": "document",
+      "runtimeHook": true,
+      "canvas2dHook": true,
+      "webglHook": false,
+      "editorHook": false,
+      "ruleId": null
+    },
+    {
+      "contextId": "context_0002",
+      "canvasId": "canvas_0002",
+      "elementId": null,
+      "width": 300,
+      "height": 150,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "contextType": "2d",
+      "attributes": null,
+      "scope": "document",
+      "runtimeHook": true,
+      "canvas2dHook": true,
+      "webglHook": false,
+      "editorHook": false,
+      "ruleId": null
+    },
+    {
+      "contextId": "context_0003",
+      "canvasId": "canvas_0003",
+      "elementId": null,
+      "width": 300,
+      "height": 150,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "contextType": "webgl",
+      "attributes": null,
+      "scope": "document",
+      "runtimeHook": true,
+      "canvas2dHook": false,
+      "webglHook": true,
+      "editorHook": false,
+      "ruleId": null
+    },
+    {
+      "contextId": "context_0004",
+      "canvasId": "canvas_0004",
+      "elementId": "glcanvas",
+      "width": 1920,
+      "height": 945,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 945,
+        "top": 0,
+        "right": 1920,
+        "bottom": 945,
+        "left": 0
+      },
+      "contextType": "webgl",
+      "attributes": {
+        "alpha": true,
+        "depth": false,
+        "stencil": false,
+        "antialias": false,
+        "premultipliedAlpha": false,
+        "preserveDrawingBuffer": false,
+        "powerPreference": "default",
+        "failIfMajorPerformanceCaveat": false,
+        "majorVersion": 1,
+        "minorVersion": 0,
+        "enableExtensionsByDefault": 1,
+        "explicitSwapControl": 0,
+        "proxyContextToMainThread": 0,
+        "renderViaOffscreenBackBuffer": 0
+      },
+      "scope": "document",
+      "runtimeHook": true,
+      "canvas2dHook": false,
+      "webglHook": true,
+      "editorHook": true,
+      "ruleId": "real-header-match-demo"
+    },
+    {
+      "contextId": "context_0005",
+      "canvasId": "canvas_0005",
+      "elementId": null,
+      "width": 16,
+      "height": 16,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "contextType": "2d",
+      "attributes": null,
+      "scope": "document",
+      "runtimeHook": true,
+      "canvas2dHook": true,
+      "webglHook": false,
+      "editorHook": false,
+      "ruleId": null
+    }
+  ],
+  "serials": {
+    "canvas": 5,
+    "context": 5,
+    "buffer": 7,
+    "shader": 27,
+    "program": 22,
+    "uniform": 48,
+    "texture": 15,
+    "draw": 13882
+  },
+  "canvases": [
+    {
+      "id": "glcanvas",
+      "width": 1920,
+      "height": 945,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 945,
+        "top": 0,
+        "right": 1920,
+        "bottom": 945,
+        "left": 0
+      },
+      "display": "block",
+      "visibility": "visible",
+      "zIndex": "auto"
+    },
+    {
+      "id": "",
+      "width": 300,
+      "height": 150,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "display": "none",
+      "visibility": "visible",
+      "zIndex": "auto"
+    },
+    {
+      "id": "",
+      "width": 300,
+      "height": 150,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "display": "none",
+      "visibility": "visible",
+      "zIndex": "auto"
+    },
+    {
+      "id": "",
+      "width": 300,
+      "height": 150,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "display": "none",
+      "visibility": "visible",
+      "zIndex": "auto"
+    },
+    {
+      "id": "",
+      "width": 300,
+      "height": 150,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "display": "none",
+      "visibility": "visible",
+      "zIndex": "auto"
+    }
+  ],
+  "overlays": [
+    {
+      "id": "real-header-match-demo",
+      "visibleChildren": [
+        {
+          "tag": "DIV",
+          "width": 245,
+          "height": 75,
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    }
+  ],
+  "origin": {
+    "accountPositions": 120,
+    "depositPositions": 54,
+    "balanceColors": 84,
+    "depositIconColors": 12,
+    "interceptedWrites": 0,
+    "interceptedBytes": 0
+  },
+  "visualControl": {
+    "enabled": true,
+    "features": {
+      "FLICKER_TRACE": true,
+      "PRE_RENDER_REMAP": true,
+      "REFERENCE_SYNC": true,
+      "ICON_SUPPRESSION": true,
+      "COLOR_REMAP": true,
+      "OVERLAY_FALLBACK": true
+    },
+    "ruleId": "real-header-match-demo"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "default",
+  "name": "Tema Azul",
+  "rules": [
+    {
+      "selector": ".approved-readonly-value",
+      "properties": { "color": "#0088ff" }
+    },
+    {
+      "selector": "[data-theme-target='readonly-profit']",
+      "properties": { "color": "#7c3aed" }
+    },
+    {
+      "selector": "[data-theme-target='readonly-loss']",
+      "properties": { "color": "rgb(239, 68, 68)" }
+    }
+  ]
+}

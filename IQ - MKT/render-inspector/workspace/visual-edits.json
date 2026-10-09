@@ -1,0 +1,93 @@
+[
+  {
+    "id": "real-header-match-demo",
+    "enabled": true,
+    "features": {
+      "FLICKER_TRACE": true,
+      "PRE_RENDER_REMAP": true,
+      "REFERENCE_SYNC": true,
+      "ICON_SUPPRESSION": true,
+      "COLOR_REMAP": true,
+      "OVERLAY_FALLBACK": true
+    },
+    "canvasId": "glcanvas",
+    "balance": {
+      "regionFromRight": [185, 360],
+      "top": 0,
+      "bottom": 76,
+      "sourceColor": [232, 101, 2],
+      "targetColor": [27, 161, 54],
+      "tolerance": 35
+    },
+    "accountShift": {
+      "mode": "vertices",
+      "leftFromRight": 430,
+      "rightFromRight": 180,
+      "top": 7,
+      "bottom": 65,
+      "dx": 20,
+      "syncWithDeposit": true
+    },
+    "accountMenu": {
+      "fromRight": 341,
+      "top": 75,
+      "bottom": 216,
+      "sourceOrange": [242, 100, 0],
+      "targetGreen": [81, 168, 93]
+    },
+    "suppressBalanceToast": {
+      "left": 120,
+      "right": 435,
+      "topFromChartBottom": 90,
+      "bottomFromChartBottom": 8,
+      "durationMs": 7000
+    },
+    "deposit": {
+      "overlay": true,
+      "mode": "vertices",
+      "right": 10,
+      "top": 14,
+      "bottom": 60,
+      "sourceWidth": 155,
+      "targetWidth": 135,
+      "iconBox": [13, 20, 52, 54],
+      "textBox": [60, 20, 140, 54],
+      "textDx": -10,
+      "backgroundColor": [25, 21, 18],
+      "borderColor": [90, 168, 81],
+      "topCorner": [
+        [27, 25, 20], [60, 101, 52], [86, 159, 77],
+        [60, 100, 52], [71, 125, 63], [32, 37, 25],
+        [86, 159, 77], [32, 37, 25], [25, 21, 18]
+      ],
+      "bottomCorner": [
+        [86, 158, 77], [32, 37, 25], [25, 21, 18],
+        [59, 99, 51], [72, 127, 63], [32, 38, 25],
+        [26, 24, 19], [59, 98, 51], [86, 158, 77]
+      ]
+    }
+  },
+  {
+    "id": "fixture-canvas2d-pre-draw",
+    "enabled": true,
+    "canvasId": "flicker-canvas2d",
+    "canvas2d": {
+      "sourceColor": "#e86502",
+      "targetColor": "#51a85d"
+    }
+  },
+  {
+    "id": "fixture-webgl-uniform-pre-draw",
+    "enabled": true,
+    "canvasId": "flicker-webgl-uniform",
+    "webglUniformRemaps": [
+      {
+        "name": "uColor",
+        "api": "uniform4f",
+        "from": [0.9098039, 0.3960784, 0.0078431, 1],
+        "to": [0.3176471, 0.6588235, 0.3647059, 1],
+        "tolerance": 0.003
+      }
+    ]
+  }
+]

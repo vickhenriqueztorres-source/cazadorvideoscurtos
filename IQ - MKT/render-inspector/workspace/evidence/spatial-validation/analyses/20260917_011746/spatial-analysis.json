@@ -1,0 +1,322 @@
+{
+  "kind": "WebGL frame / spatial evidence",
+  "status": "PROBABLE",
+  "score": null,
+  "evidence": [
+    "74 commands captured (animation-frame)",
+    "0 draws have supported geometry covering the selected pixel",
+    "2 draw calls changed that pixel during execution",
+    "Exclusive ownership and semantic component identity are not confirmed"
+  ],
+  "data": {
+    "canvasId": "canvas_0004",
+    "point": {
+      "x": 1715,
+      "y": 909
+    },
+    "drawCount": 74,
+    "spatialMatches": [],
+    "pixelChanges": [
+      {
+        "order": 0,
+        "api": "clear",
+        "programId": null,
+        "before": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      {
+        "order": 1,
+        "api": "drawElements",
+        "programId": "program_0001",
+        "before": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "after": [
+          25,
+          21,
+          18,
+          255
+        ]
+      },
+      {
+        "order": 9,
+        "api": "drawElements",
+        "programId": "program_0005",
+        "before": [
+          25,
+          21,
+          18,
+          255
+        ],
+        "after": [
+          81,
+          168,
+          93,
+          255
+        ]
+      }
+    ],
+    "unsupportedDraws": [
+      {
+        "order": 1,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 3,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 5,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 6,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 7,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 8,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 9,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 16,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 18,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 19,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 20,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 21,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 22,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 23,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 24,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 25,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 26,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 27,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 28,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 29,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 30,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 31,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 32,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 33,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 35,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 36,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 38,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 40,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 41,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 42,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 43,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 44,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 45,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 46,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 47,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 48,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 49,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 50,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 51,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 52,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 53,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 54,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 55,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 56,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 57,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 58,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 59,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 60,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 61,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 62,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 63,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 64,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 65,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 66,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 67,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 68,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 69,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 70,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 71,
+        "reason": "Buffer was not available at draw time"
+      },
+      {
+        "order": 72,
+        "reason": "Buffer was not available at draw time"
+      }
+    ],
+    "limitations": [
+      "Texture contents and independent replay are not captured; pixel deltas establish contributions, not exclusive ownership.",
+      "Capture spans two animation-frame boundaries; multiple render passes may occur.",
+      "ANGLE instancing draws are not intercepted",
+      "Buffer unavailable or capture byte budget exceeded"
+    ],
+    "captureError": null
+  }
+}

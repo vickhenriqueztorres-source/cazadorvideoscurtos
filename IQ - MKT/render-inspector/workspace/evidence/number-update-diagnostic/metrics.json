@@ -1,0 +1,843 @@
+{
+  "capturedPresentedFrames": 122,
+  "uniquePresentedNumberStates": 2,
+  "presentedNumberChanges": 1,
+  "sourceTelemetry": {
+    "draws": 554,
+    "changes": 61,
+    "sources": {
+      "program_0001|buffer_0003|180|0|8": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 957913621,
+        "vertices": 8
+      },
+      "program_0001|buffer_0003|12|5508|4": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 3516223173,
+        "vertices": 4
+      },
+      "program_0001|buffer_0003|60|7908|4": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 134079365,
+        "vertices": 4
+      },
+      "program_0005|buffer_0003|150|8028|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 2681920305,
+        "vertices": 40
+      },
+      "program_0001|buffer_0005|216|0|6": {
+        "draws": 90,
+        "changes": 1,
+        "lastHash": 2071681259,
+        "vertices": 6
+      },
+      "program_0005|buffer_0005|1212|1944|40": {
+        "draws": 2,
+        "changes": 1,
+        "lastHash": 3200165045,
+        "vertices": 40
+      },
+      "program_0001|buffer_0007|216|0|6": {
+        "draws": 89,
+        "changes": 1,
+        "lastHash": 2071681259,
+        "vertices": 6
+      },
+      "program_0005|buffer_0007|1212|1944|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 3200165045,
+        "vertices": 40
+      },
+      "program_0001|buffer_0003|216|0|6": {
+        "draws": 88,
+        "changes": 1,
+        "lastHash": 2071681259,
+        "vertices": 6
+      },
+      "program_0005|buffer_0003|1212|1944|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 3200165045,
+        "vertices": 40
+      },
+      "program_0001|buffer_0007|90|0|6": {
+        "draws": 3,
+        "changes": 1,
+        "lastHash": 2071681259,
+        "vertices": 6
+      },
+      "program_0005|buffer_0007|522|2592|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 3045796977,
+        "vertices": 40
+      },
+      "program_0001|buffer_0003|90|0|6": {
+        "draws": 3,
+        "changes": 1,
+        "lastHash": 2071681259,
+        "vertices": 6
+      },
+      "program_0005|buffer_0003|510|2820|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 172801897,
+        "vertices": 40
+      },
+      "program_0001|buffer_0005|90|0|6": {
+        "draws": 2,
+        "changes": 1,
+        "lastHash": 2071681259,
+        "vertices": 6
+      },
+      "program_0005|buffer_0005|576|2940|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 3011583769,
+        "vertices": 40
+      },
+      "program_0005|buffer_0007|522|2928|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 2907725125,
+        "vertices": 40
+      },
+      "program_0005|buffer_0003|462|2724|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 750626089,
+        "vertices": 40
+      },
+      "program_0005|buffer_0005|636|2748|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 2782139881,
+        "vertices": 40
+      },
+      "program_0005|buffer_0007|510|2712|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 1156588657,
+        "vertices": 40
+      },
+      "program_0005|buffer_0003|414|2688|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 2726248897,
+        "vertices": 40
+      },
+      "program_0005|buffer_0005|1362|3000|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 611607981,
+        "vertices": 40
+      },
+      "program_0005|buffer_0007|1380|3012|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 3551769265,
+        "vertices": 40
+      },
+      "program_0005|buffer_0003|1380|3012|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 3551769265,
+        "vertices": 40
+      },
+      "program_0005|buffer_0005|1410|3012|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 2770422685,
+        "vertices": 40
+      },
+      "program_0005|buffer_0007|1434|3024|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 1834957289,
+        "vertices": 40
+      },
+      "program_0005|buffer_0003|1470|3024|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 2767470153,
+        "vertices": 40
+      },
+      "program_0005|buffer_0005|1416|2880|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 2907725125,
+        "vertices": 40
+      },
+      "program_0005|buffer_0007|1416|2880|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 2907725125,
+        "vertices": 40
+      },
+      "program_0005|buffer_0003|1416|2880|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 2907725125,
+        "vertices": 40
+      },
+      "program_0005|buffer_0005|1416|2292|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 3849355561,
+        "vertices": 40
+      },
+      "program_0005|buffer_0007|1458|2256|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 3338414529,
+        "vertices": 40
+      },
+      "program_0005|buffer_0003|1362|2316|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 3149367073,
+        "vertices": 40
+      },
+      "program_0005|buffer_0005|1398|2328|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 1834101737,
+        "vertices": 40
+      },
+      "program_0005|buffer_0007|1398|2328|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 1834101737,
+        "vertices": 40
+      },
+      "program_0005|buffer_0003|1398|2328|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 1834101737,
+        "vertices": 40
+      },
+      "program_0005|buffer_0005|1434|2340|40": {
+        "draws": 67,
+        "changes": 1,
+        "lastHash": 4173010033,
+        "vertices": 40
+      },
+      "program_0005|buffer_0007|1434|2340|40": {
+        "draws": 67,
+        "changes": 1,
+        "lastHash": 4173010033,
+        "vertices": 40
+      },
+      "program_0005|buffer_0003|1434|2340|40": {
+        "draws": 67,
+        "changes": 1,
+        "lastHash": 4173010033,
+        "vertices": 40
+      },
+      "program_0005|buffer_0005|1428|2340|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 4173010033,
+        "vertices": 40
+      },
+      "program_0005|buffer_0007|1356|2316|40": {
+        "draws": 4,
+        "changes": 1,
+        "lastHash": 3149367073,
+        "vertices": 40
+      },
+      "program_0005|buffer_0003|1356|2316|40": {
+        "draws": 3,
+        "changes": 1,
+        "lastHash": 3149367073,
+        "vertices": 40
+      },
+      "program_0005|buffer_0005|1356|2316|40": {
+        "draws": 3,
+        "changes": 1,
+        "lastHash": 3149367073,
+        "vertices": 40
+      },
+      "program_0005|buffer_0003|1350|2316|40": {
+        "draws": 3,
+        "changes": 1,
+        "lastHash": 3149367073,
+        "vertices": 40
+      },
+      "program_0005|buffer_0005|1350|2316|40": {
+        "draws": 3,
+        "changes": 1,
+        "lastHash": 3149367073,
+        "vertices": 40
+      },
+      "program_0005|buffer_0007|1350|2316|40": {
+        "draws": 2,
+        "changes": 1,
+        "lastHash": 3149367073,
+        "vertices": 40
+      },
+      "program_0005|buffer_0007|1344|2316|40": {
+        "draws": 3,
+        "changes": 1,
+        "lastHash": 3149367073,
+        "vertices": 40
+      },
+      "program_0005|buffer_0003|1344|2316|40": {
+        "draws": 3,
+        "changes": 1,
+        "lastHash": 3149367073,
+        "vertices": 40
+      },
+      "program_0005|buffer_0005|1344|2316|40": {
+        "draws": 2,
+        "changes": 1,
+        "lastHash": 3149367073,
+        "vertices": 40
+      },
+      "program_0005|buffer_0005|1338|2304|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 3849355561,
+        "vertices": 40
+      },
+      "program_0005|buffer_0007|1338|2304|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 3849355561,
+        "vertices": 40
+      },
+      "program_0005|buffer_0003|1344|2304|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 3849355561,
+        "vertices": 40
+      },
+      "program_0005|buffer_0005|1344|2208|40": {
+        "draws": 3,
+        "changes": 1,
+        "lastHash": 1124458177,
+        "vertices": 40
+      },
+      "program_0005|buffer_0007|1344|2208|40": {
+        "draws": 3,
+        "changes": 1,
+        "lastHash": 1124458177,
+        "vertices": 40
+      },
+      "program_0005|buffer_0003|1344|2208|40": {
+        "draws": 2,
+        "changes": 1,
+        "lastHash": 1124458177,
+        "vertices": 40
+      },
+      "program_0005|buffer_0003|1350|2208|40": {
+        "draws": 2,
+        "changes": 1,
+        "lastHash": 1124458177,
+        "vertices": 40
+      },
+      "program_0005|buffer_0005|1350|2208|40": {
+        "draws": 2,
+        "changes": 1,
+        "lastHash": 1124458177,
+        "vertices": 40
+      },
+      "program_0005|buffer_0007|1350|2208|40": {
+        "draws": 2,
+        "changes": 1,
+        "lastHash": 1124458177,
+        "vertices": 40
+      },
+      "program_0005|buffer_0003|1356|2208|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 1124458177,
+        "vertices": 40
+      },
+      "program_0005|buffer_0005|1356|2208|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 1124458177,
+        "vertices": 40
+      },
+      "program_0005|buffer_0007|1356|2208|40": {
+        "draws": 1,
+        "changes": 1,
+        "lastHash": 1124458177,
+        "vertices": 40
+      }
+    },
+    "samples": [
+      {
+        "timestamp": 10146.5,
+        "frameSequence": 0,
+        "sourceKey": "program_0001|buffer_0003|180|0|8",
+        "hash": 957913621,
+        "vertices": 8
+      },
+      {
+        "timestamp": 10151.299999999988,
+        "frameSequence": 0,
+        "sourceKey": "program_0001|buffer_0003|12|5508|4",
+        "hash": 3516223173,
+        "vertices": 4
+      },
+      {
+        "timestamp": 10153.900000000023,
+        "frameSequence": 0,
+        "sourceKey": "program_0001|buffer_0003|60|7908|4",
+        "hash": 134079365,
+        "vertices": 4
+      },
+      {
+        "timestamp": 10154.099999999977,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0003|150|8028|40",
+        "hash": 2681920305,
+        "vertices": 40
+      },
+      {
+        "timestamp": 10872.799999999988,
+        "frameSequence": 0,
+        "sourceKey": "program_0001|buffer_0005|216|0|6",
+        "hash": 2071681259,
+        "vertices": 6
+      },
+      {
+        "timestamp": 10874.700000000012,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0005|1212|1944|40",
+        "hash": 3200165045,
+        "vertices": 40
+      },
+      {
+        "timestamp": 10937.700000000012,
+        "frameSequence": 0,
+        "sourceKey": "program_0001|buffer_0007|216|0|6",
+        "hash": 2071681259,
+        "vertices": 6
+      },
+      {
+        "timestamp": 10938.900000000023,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0007|1212|1944|40",
+        "hash": 3200165045,
+        "vertices": 40
+      },
+      {
+        "timestamp": 11092.299999999988,
+        "frameSequence": 0,
+        "sourceKey": "program_0001|buffer_0003|216|0|6",
+        "hash": 2071681259,
+        "vertices": 6
+      },
+      {
+        "timestamp": 11093.200000000012,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0003|1212|1944|40",
+        "hash": 3200165045,
+        "vertices": 40
+      },
+      {
+        "timestamp": 11313.900000000023,
+        "frameSequence": 0,
+        "sourceKey": "program_0001|buffer_0007|90|0|6",
+        "hash": 2071681259,
+        "vertices": 6
+      },
+      {
+        "timestamp": 11314.700000000012,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0007|522|2592|40",
+        "hash": 3045796977,
+        "vertices": 40
+      },
+      {
+        "timestamp": 11365.599999999977,
+        "frameSequence": 0,
+        "sourceKey": "program_0001|buffer_0003|90|0|6",
+        "hash": 2071681259,
+        "vertices": 6
+      },
+      {
+        "timestamp": 11366.5,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0003|510|2820|40",
+        "hash": 172801897,
+        "vertices": 40
+      },
+      {
+        "timestamp": 11417.099999999977,
+        "frameSequence": 0,
+        "sourceKey": "program_0001|buffer_0005|90|0|6",
+        "hash": 2071681259,
+        "vertices": 6
+      },
+      {
+        "timestamp": 11417.900000000023,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0005|576|2940|40",
+        "hash": 3011583769,
+        "vertices": 40
+      },
+      {
+        "timestamp": 11449.700000000012,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0007|522|2928|40",
+        "hash": 2907725125,
+        "vertices": 40
+      },
+      {
+        "timestamp": 11484.900000000023,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0003|462|2724|40",
+        "hash": 750626089,
+        "vertices": 40
+      },
+      {
+        "timestamp": 11519.299999999988,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0005|636|2748|40",
+        "hash": 2782139881,
+        "vertices": 40
+      },
+      {
+        "timestamp": 11549.799999999988,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0007|510|2712|40",
+        "hash": 1156588657,
+        "vertices": 40
+      },
+      {
+        "timestamp": 11588.299999999988,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0003|414|2688|40",
+        "hash": 2726248897,
+        "vertices": 40
+      },
+      {
+        "timestamp": 11620.099999999977,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0005|1362|3000|40",
+        "hash": 611607981,
+        "vertices": 40
+      },
+      {
+        "timestamp": 11651.5,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0007|1380|3012|40",
+        "hash": 3551769265,
+        "vertices": 40
+      },
+      {
+        "timestamp": 11682.900000000023,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0003|1380|3012|40",
+        "hash": 3551769265,
+        "vertices": 40
+      },
+      {
+        "timestamp": 11716.099999999977,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0005|1410|3012|40",
+        "hash": 2770422685,
+        "vertices": 40
+      },
+      {
+        "timestamp": 11748.700000000012,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0007|1434|3024|40",
+        "hash": 1834957289,
+        "vertices": 40
+      },
+      {
+        "timestamp": 11783.700000000012,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0003|1470|3024|40",
+        "hash": 2767470153,
+        "vertices": 40
+      },
+      {
+        "timestamp": 11817.200000000012,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0005|1416|2880|40",
+        "hash": 2907725125,
+        "vertices": 40
+      },
+      {
+        "timestamp": 11850.099999999977,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0007|1416|2880|40",
+        "hash": 2907725125,
+        "vertices": 40
+      },
+      {
+        "timestamp": 11895.900000000023,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0003|1416|2880|40",
+        "hash": 2907725125,
+        "vertices": 40
+      },
+      {
+        "timestamp": 12001.700000000012,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0005|1416|2292|40",
+        "hash": 3849355561,
+        "vertices": 40
+      },
+      {
+        "timestamp": 12035.099999999977,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0007|1458|2256|40",
+        "hash": 3338414529,
+        "vertices": 40
+      },
+      {
+        "timestamp": 12083,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0003|1362|2316|40",
+        "hash": 3149367073,
+        "vertices": 40
+      },
+      {
+        "timestamp": 12109.700000000012,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0005|1398|2328|40",
+        "hash": 1834101737,
+        "vertices": 40
+      },
+      {
+        "timestamp": 12135.5,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0007|1398|2328|40",
+        "hash": 1834101737,
+        "vertices": 40
+      },
+      {
+        "timestamp": 12165.700000000012,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0003|1398|2328|40",
+        "hash": 1834101737,
+        "vertices": 40
+      },
+      {
+        "timestamp": 12203.299999999988,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0005|1434|2340|40",
+        "hash": 4173010033,
+        "vertices": 40
+      },
+      {
+        "timestamp": 12235.200000000012,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0007|1434|2340|40",
+        "hash": 4173010033,
+        "vertices": 40
+      },
+      {
+        "timestamp": 12271.5,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0003|1434|2340|40",
+        "hash": 4173010033,
+        "vertices": 40
+      },
+      {
+        "timestamp": 19011.400000000023,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0005|1428|2340|40",
+        "hash": 4173010033,
+        "vertices": 40
+      },
+      {
+        "timestamp": 19042.79999999999,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0007|1356|2316|40",
+        "hash": 3149367073,
+        "vertices": 40
+      },
+      {
+        "timestamp": 19074,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0003|1356|2316|40",
+        "hash": 3149367073,
+        "vertices": 40
+      },
+      {
+        "timestamp": 19106.599999999977,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0005|1356|2316|40",
+        "hash": 3149367073,
+        "vertices": 40
+      },
+      {
+        "timestamp": 19372.400000000023,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0003|1350|2316|40",
+        "hash": 3149367073,
+        "vertices": 40
+      },
+      {
+        "timestamp": 19412.099999999977,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0005|1350|2316|40",
+        "hash": 3149367073,
+        "vertices": 40
+      },
+      {
+        "timestamp": 19438.79999999999,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0007|1350|2316|40",
+        "hash": 3149367073,
+        "vertices": 40
+      },
+      {
+        "timestamp": 19640.79999999999,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0007|1344|2316|40",
+        "hash": 3149367073,
+        "vertices": 40
+      },
+      {
+        "timestamp": 19674.20000000001,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0003|1344|2316|40",
+        "hash": 3149367073,
+        "vertices": 40
+      },
+      {
+        "timestamp": 19708.900000000023,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0005|1344|2316|40",
+        "hash": 3149367073,
+        "vertices": 40
+      },
+      {
+        "timestamp": 19910.70000000001,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0005|1338|2304|40",
+        "hash": 3849355561,
+        "vertices": 40
+      },
+      {
+        "timestamp": 19943,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0007|1338|2304|40",
+        "hash": 3849355561,
+        "vertices": 40
+      },
+      {
+        "timestamp": 19974.29999999999,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0003|1344|2304|40",
+        "hash": 3849355561,
+        "vertices": 40
+      },
+      {
+        "timestamp": 20008.400000000023,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0005|1344|2208|40",
+        "hash": 1124458177,
+        "vertices": 40
+      },
+      {
+        "timestamp": 20044.20000000001,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0007|1344|2208|40",
+        "hash": 1124458177,
+        "vertices": 40
+      },
+      {
+        "timestamp": 20075.79999999999,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0003|1344|2208|40",
+        "hash": 1124458177,
+        "vertices": 40
+      },
+      {
+        "timestamp": 20275,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0003|1350|2208|40",
+        "hash": 1124458177,
+        "vertices": 40
+      },
+      {
+        "timestamp": 20310.900000000023,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0005|1350|2208|40",
+        "hash": 1124458177,
+        "vertices": 40
+      },
+      {
+        "timestamp": 20344.400000000023,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0007|1350|2208|40",
+        "hash": 1124458177,
+        "vertices": 40
+      },
+      {
+        "timestamp": 20473.79999999999,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0003|1356|2208|40",
+        "hash": 1124458177,
+        "vertices": 40
+      },
+      {
+        "timestamp": 20507,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0005|1356|2208|40",
+        "hash": 1124458177,
+        "vertices": 40
+      },
+      {
+        "timestamp": 20538.5,
+        "frameSequence": 0,
+        "sourceKey": "program_0005|buffer_0007|1356|2208|40",
+        "hash": 1124458177,
+        "vertices": 40
+      }
+    ]
+  },
+  "sourceValueChangesAfterBaseline": 0,
+  "headerConclusion": "NO_NEW_SOURCE_VALUE_OBSERVED_DURING_WINDOW",
+  "menuFirst": {
+    "hasPixels": true,
+    "hash": 839307325,
+    "captureTime": 21176.79999999999,
+    "captureCount": 1,
+    "opening": false,
+    "overlayVisible": true,
+    "requested": true,
+    "cached": true,
+    "rendererDraws": 19273
+  },
+  "menuLater": {
+    "hasPixels": true,
+    "hash": 839307325,
+    "captureTime": 21176.79999999999,
+    "captureCount": 1,
+    "opening": false,
+    "overlayVisible": true,
+    "requested": true,
+    "cached": true,
+    "rendererDraws": 25156
+  },
+  "menuClosed": {
+    "hasPixels": false,
+    "hash": null,
+    "captureTime": 21176.79999999999,
+    "captureCount": 1,
+    "opening": false,
+    "overlayVisible": false,
+    "requested": false,
+    "cached": true,
+    "rendererDraws": 25156
+  },
+  "menuSnapshotFrozenWhileRendererContinued": true,
+  "rootCause": "The account menu is rendered from a cached __riMenuPixels snapshot and is not recaptured while open."
+}

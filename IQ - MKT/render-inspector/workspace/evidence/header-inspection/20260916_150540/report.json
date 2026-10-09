@@ -1,0 +1,81 @@
+{
+  "url": "https://iqoption.com/traderoom",
+  "dpr": 1,
+  "viewport": {
+    "width": 1920,
+    "height": 945
+  },
+  "canvases": [
+    {
+      "id": "glcanvas",
+      "width": 1920,
+      "height": 945,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 945,
+        "top": 0,
+        "right": 1920,
+        "bottom": 945,
+        "left": 0
+      }
+    },
+    {
+      "id": "",
+      "width": 247,
+      "height": 58,
+      "rect": {
+        "x": 1510,
+        "y": 7,
+        "width": 247,
+        "height": 58,
+        "top": 7,
+        "right": 1757,
+        "bottom": 65,
+        "left": 1510
+      }
+    },
+    {
+      "id": "",
+      "width": 11,
+      "height": 6,
+      "rect": {
+        "x": 1743,
+        "y": 34,
+        "width": 11,
+        "height": 6,
+        "top": 34,
+        "right": 1754,
+        "bottom": 40,
+        "left": 1743
+      }
+    },
+    {
+      "id": "",
+      "width": 135,
+      "height": 46,
+      "rect": {
+        "x": 1775,
+        "y": 14,
+        "width": 135,
+        "height": 46,
+        "top": 14,
+        "right": 1910,
+        "bottom": 60,
+        "left": 1775
+      }
+    }
+  ],
+  "depositDom": [],
+  "buttonCandidates": [
+    {
+      "left": 1775,
+      "top": 14,
+      "width": 135,
+      "height": 46
+    }
+  ],
+  "drawAttribution": "UNRESOLVED: pixel geometry is not a semantic component or an exact WebGL draw.",
+  "patchStatus": "disabled; original rendering restored"
+}

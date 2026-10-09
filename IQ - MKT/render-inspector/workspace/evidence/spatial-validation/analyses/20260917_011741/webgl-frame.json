@@ -1,0 +1,32 @@
+{
+  "canvasId": "canvas_0004",
+  "point": {
+    "x": 1736,
+    "y": 909
+  },
+  "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 945,
+    "top": 0,
+    "right": 1920,
+    "bottom": 945,
+    "left": 0
+  },
+  "width": 1920,
+  "height": 945,
+  "startedAt": 140205.19999999553,
+  "boundaryMode": "animation-frame",
+  "draws": [],
+  "buffers": {},
+  "programs": {},
+  "stacks": {},
+  "byteCount": 0,
+  "limitations": [
+    "Texture contents and independent replay are not captured; pixel deltas establish contributions, not exclusive ownership.",
+    "Capture spans two animation-frame boundaries; multiple render passes may occur.",
+    "ANGLE instancing draws are not intercepted"
+  ],
+  "endedAt": 140211.29999999702
+}

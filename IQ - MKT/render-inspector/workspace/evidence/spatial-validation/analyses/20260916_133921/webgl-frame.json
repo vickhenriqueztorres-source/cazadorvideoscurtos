@@ -1,0 +1,32 @@
+{
+  "canvasId": "canvas_0004",
+  "point": {
+    "x": 1661,
+    "y": 906
+  },
+  "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 945,
+    "top": 0,
+    "right": 1920,
+    "bottom": 945,
+    "left": 0
+  },
+  "width": 1920,
+  "height": 945,
+  "startedAt": 113069,
+  "boundaryMode": "timer-fallback",
+  "draws": [],
+  "buffers": {},
+  "programs": {},
+  "stacks": {},
+  "byteCount": 0,
+  "limitations": [
+    "Texture contents and independent replay are not captured; pixel deltas establish contributions, not exclusive ownership.",
+    "Animation frames were suspended; captured a timed draw batch instead of one complete frame.",
+    "ANGLE instancing draws are not intercepted"
+  ],
+  "endedAt": 114067.20000000019
+}

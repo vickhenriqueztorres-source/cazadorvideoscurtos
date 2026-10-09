@@ -1,0 +1,29 @@
+{
+  "url": "https://iqoption.com/traderoom",
+  "dpr": 1,
+  "viewport": {
+    "width": 1920,
+    "height": 945
+  },
+  "canvases": [
+    {
+      "id": "glcanvas",
+      "width": 1920,
+      "height": 945,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 945,
+        "top": 0,
+        "right": 1920,
+        "bottom": 945,
+        "left": 0
+      }
+    }
+  ],
+  "depositDom": [],
+  "buttonCandidates": [],
+  "drawAttribution": "UNRESOLVED: pixel geometry is not a semantic component or an exact WebGL draw.",
+  "patchStatus": "disabled; original rendering restored"
+}

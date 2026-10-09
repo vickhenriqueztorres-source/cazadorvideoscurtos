@@ -1,0 +1,40 @@
+{
+  "allowedCssProperties": [
+    "color",
+    "background-color",
+    "border-color",
+    "outline-color",
+    "fill",
+    "stroke"
+  ],
+  "blockedSelectors": [
+    "*",
+    "body",
+    "html",
+    "button",
+    "input",
+    "select",
+    "textarea",
+    "form",
+    "[role='button']",
+    "[contenteditable='true']"
+  ],
+  "blockedTokens": [
+    "@import",
+    "@font-face",
+    "url(",
+    "javascript:",
+    ":has(",
+    "display:",
+    "visibility:",
+    "opacity:",
+    "pointer-events:",
+    "position:",
+    "z-index:",
+    "transform:",
+    "filter:"
+  ],
+  "allowFrames": false,
+  "allowShadowDomOpen": true,
+  "allowShadowDomClosed": false
+}

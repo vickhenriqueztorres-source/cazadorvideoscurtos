@@ -1,0 +1,17 @@
+{
+  "session": "20260916_104307_267219",
+  "url": "https://iqoption.com/traderoom",
+  "panelState": "READY",
+  "counts": {
+    "CONTEXT_CREATED": 6,
+    "FRAME_NAVIGATED": 3,
+    "HOOK_INSTALLED": 6,
+    "STATE_CHANGED": 1,
+    "TARGET_ATTACHED": 3,
+    "TARGET_DETACHED": 1,
+    "TARGET_DISCOVERED": 23,
+    "WEBGPU_DETECTED": 5
+  },
+  "hookFailures": 0,
+  "scope": "automatic startup detection; no target click"
+}

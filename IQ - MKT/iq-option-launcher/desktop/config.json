@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 3,
+  "platforms": [
+    {
+      "id": "iq-option",
+      "name": "IQ Option",
+      "origins": ["https://iqoption.com", "https://www.iqoption.com"],
+      "routes": ["/traderoom"],
+      "verified": false,
+      "targets": {
+        "value": [],
+        "caption": [],
+        "profit": [".profit", ".pnl-positive", "[class*='profit']", "[class*='pnl']", "[data-theme-target='readonly-profit']"],
+        "loss": [".loss", ".pnl-negative", "[class*='loss']", "[data-theme-target='readonly-loss']"]
+      }
+    }
+  ],
+  "themes": [
+    {"id": "default", "name": "Azul e laranja", "colors": {"value": "#0088ff", "caption": "#aebad1", "profit": "#0088ff", "loss": "#ff6600"}},
+    {"id": "high-contrast", "name": "Alto contraste", "colors": {"value": "#00e5ff", "caption": "#ffe45c", "profit": "#8bff6a", "loss": "#ff6b9a"}}
+  ]
+}

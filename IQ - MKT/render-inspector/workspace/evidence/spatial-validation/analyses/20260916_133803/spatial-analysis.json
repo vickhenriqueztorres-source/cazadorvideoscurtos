@@ -1,0 +1,21 @@
+{
+  "kind": "WebGL frame / spatial evidence",
+  "status": "INCONCLUSIVE",
+  "score": null,
+  "evidence": [
+    "0 commands captured between animation-frame boundaries",
+    "0 draws have supported geometry covering the selected pixel",
+    "0 draw calls changed that pixel during execution",
+    "Exclusive ownership and semantic component identity are not confirmed"
+  ],
+  "data": {
+    "canvasId": null,
+    "point": null,
+    "drawCount": 0,
+    "spatialMatches": [],
+    "pixelChanges": [],
+    "unsupportedDraws": [],
+    "limitations": [],
+    "captureError": "No animation frame received"
+  }
+}

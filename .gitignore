@@ -44,3 +44,21 @@ ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 .DS_Store
+
+# Frontend / Node
+node_modules/
+dist/
+
+# Build artifacts
+build/
+desktop/build/
+desktop/dist/
+
+# Type checking / Linters
+.mypy_cache/
+.ruff_cache/
+
+# Render inspector runtime / profiles / sessions
+**/workspace/browser-profile/
+**/workspace/test-profile/
+**/workspace/sessions/

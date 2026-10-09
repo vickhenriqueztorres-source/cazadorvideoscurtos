@@ -1,0 +1,32 @@
+{
+  "requestedPresentedFrames": 120,
+  "capturedPresentedFrames": 122,
+  "framesWithOrangePixels": 0,
+  "framesWithGreenPixels": 121,
+  "maximumOrangePixels": 0,
+  "minimumGreenPixels": 0,
+  "trace": {
+    "renderer": "WebGL",
+    "status": "PASS",
+    "grade": "B",
+    "classifications": [],
+    "observedFrames": 433,
+    "incorrectStateFrames": 0,
+    "incorrectStateFrameIds": [],
+    "postRenderOverrideFrames": 0,
+    "referenceTargetMaxDeltaPx": 0.0,
+    "averageOverrideDurationMs": 0.0692,
+    "maximumOverrideDurationMs": 13.0,
+    "averageDrawDurationMs": 0.0372,
+    "averageFrameIntervalMs": 21.1579,
+    "maximumFrameIntervalMs": 714.1,
+    "droppedFrameEstimate": 26,
+    "eventCount": 67866,
+    "droppedTraceEvents": 0,
+    "rootCause": "No incorrect target state reached an observed renderer draw.",
+    "recommendedFix": "Keep the renderer-local hook and re-run the trace after renderer changes."
+  },
+  "discoveredContexts": 5,
+  "unhookedWebGLContexts": [],
+  "conclusion": "NO_FLICKER_OBSERVED_AND_ALL_DISCOVERED_WEBGL_CONTEXTS_HOOKED"
+}

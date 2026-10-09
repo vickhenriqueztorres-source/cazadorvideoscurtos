@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Visual Theme Assistant",
+  "version": "0.1.0",
+  "description": "Tema local e reversível, limitado a cores e domínios autorizados.",
+  "minimum_chrome_version": "120",
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["http://127.0.0.1/*"],
+  "background": {
+    "service_worker": "background/service-worker.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "Visual Theme Assistant"
+  },
+  "options_page": "options/options.html",
+  "content_scripts": [
+    {
+      "matches": ["http://127.0.0.1/*"],
+      "js": ["content/bootstrap.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ]
+}

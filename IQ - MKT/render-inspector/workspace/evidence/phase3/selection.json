@@ -1,0 +1,127 @@
+{
+  "type": "TARGET_SELECTED",
+  "payload": {
+    "clientX": 150,
+    "clientY": 95,
+    "pageX": 150,
+    "pageY": 95,
+    "screenX": 158,
+    "screenY": 246,
+    "devicePixelRatio": 1,
+    "viewportWidth": 784,
+    "viewportHeight": 441,
+    "scrollX": 0,
+    "scrollY": 0,
+    "frameUrl": "http://127.0.0.1:56781/canvas2d.html",
+    "targetRegion": {
+      "x": 134,
+      "y": 79,
+      "width": 32,
+      "height": 32
+    },
+    "elements": [
+      {
+        "tag": "canvas",
+        "id": "target",
+        "classes": [],
+        "text": "",
+        "rect": {
+          "x": 8,
+          "y": 8,
+          "width": 640,
+          "height": 240
+        },
+        "canvasId": "canvas_0001",
+        "canvasWidth": 640,
+        "canvasHeight": 240,
+        "renderer": "DOM",
+        "shadowMode": null,
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "font": "16px \"Times New Roman\"",
+        "before": {
+          "content": "none",
+          "color": "rgb(0, 0, 0)",
+          "font": "16px \"Times New Roman\"",
+          "display": "inline"
+        },
+        "after": {
+          "content": "none",
+          "color": "rgb(0, 0, 0)",
+          "font": "16px \"Times New Roman\"",
+          "display": "inline"
+        }
+      },
+      {
+        "tag": "body",
+        "id": "",
+        "classes": [],
+        "text": "window.fixtureHookPrecededScript=Boolean(globalThis.__renderInspector);const ctx=target.getContext('2d');ctx.fillStyle='#ffffff';ctx.font='24px Arial';ctx.fillText('Saldo: R$ 500',100,100);",
+        "rect": {
+          "x": 8,
+          "y": 8,
+          "width": 768,
+          "height": 244
+        },
+        "canvasId": null,
+        "canvasWidth": null,
+        "canvasHeight": null,
+        "renderer": "DOM",
+        "shadowMode": null,
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "font": "16px \"Times New Roman\"",
+        "before": {
+          "content": "none",
+          "color": "rgb(0, 0, 0)",
+          "font": "16px \"Times New Roman\"",
+          "display": "inline"
+        },
+        "after": {
+          "content": "none",
+          "color": "rgb(0, 0, 0)",
+          "font": "16px \"Times New Roman\"",
+          "display": "inline"
+        }
+      },
+      {
+        "tag": "html",
+        "id": "",
+        "classes": [],
+        "text": "Canvas2D fixture\n\nwindow.fixtureHookPrecededScript=Boolean(globalThis.__renderInspector);const ctx=target.getContext('2d');ctx.fillStyle='#ffffff';ctx.font='24px Arial';ctx.fillText('Saldo: R$ 500',100,100);\n\nPONTO 150,95 · canvas#target",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 784,
+          "height": 260
+        },
+        "canvasId": null,
+        "canvasWidth": null,
+        "canvasHeight": null,
+        "renderer": "DOM",
+        "shadowMode": null,
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "font": "16px \"Times New Roman\"",
+        "before": {
+          "content": "none",
+          "color": "rgb(0, 0, 0)",
+          "font": "16px \"Times New Roman\"",
+          "display": "inline"
+        },
+        "after": {
+          "content": "none",
+          "color": "rgb(0, 0, 0)",
+          "font": "16px \"Times New Roman\"",
+          "display": "inline"
+        }
+      }
+    ],
+    "jsTimestamp": 325.29999999981374,
+    "frameId": "011028C26091FF0120C866963A62E068"
+  },
+  "targetId": "011028C26091FF0120C866963A62E068",
+  "sessionId": "9AE18ACC54E44A108598BC0E23319551",
+  "contextId": 2,
+  "receivedAt": "2026-09-17T15:11:21.632793+00:00"
+}
